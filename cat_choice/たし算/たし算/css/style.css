@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+body {
+    width: 100%;
+    max-width: 1280px;
+    margin-inline: auto;
+    font-size: 16px;
+    /* text-align: center; */
+}
+
+main {
+    color: #fff;
+    text-align: center;
+    margin-inline: auto;
+    /* background-color: rgb(52, 20, 85); */
+    background-color: #000;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    width: 500px;
+    /* justify-content: space-between; */
+    /* border: 1px solid black; */
+}
+
+.is_around {
+    /* justify-content: space-between; */
+    justify-content: space-around;
+}
+
+/* 見出しの文字サイズ */
+
+h1 {
+    font-size: 1rem;
+}
+
+/* 問題表示の文字サイズ */
+
+h2 {
+    font-size: 4rem;
+    width: 100px;
+}
+
+/* タイムカウントの文字サイズ */
+
+h3 {
+    font-size: 2rem;
+}
+
+/* Speed 文字サイズ */
+
+p {
+    /* background-color: aquamarine; */
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* 速さ設定　ラベル文字サイズ */
+
+label {
+    font-size: 2rem;
+}
+
+/* ラジオボタン　〇のサイズ */
+
+input {
+    transform: scale(1.6);
+}
+
+/* ボタンの文字サイズ */
+
+button {
+    font-size: 2rem;
+}
