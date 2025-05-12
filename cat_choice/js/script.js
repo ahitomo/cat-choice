@@ -108,7 +108,7 @@ button.addEventListener('click', function() {
 function load() {
     for (let i = 0; i < catImg.length; i++) {
         let randomNumber = Math.floor(Math.random() * (6)); 
-        catImg[i].src = '画像ファイル/cat_0' + Number(randomNumber + 1) + '.png';
+        catImg[i].src = 'image/cat_0' + Number(randomNumber + 1) + '.png';
         catImg[i].alt = catType[randomNumber];
     }
 };
